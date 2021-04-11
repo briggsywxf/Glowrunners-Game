@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Bath Hack 2021</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
     <script src="Build/Build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data.br",
-        frameworkUrl: "Build/Build.framework.js.br",
-        codeUrl: "Build/Build.wasm.br",
+        dataUrl: "Build/Build.data",
+        frameworkUrl: "Build/Build.framework.js",
+        codeUrl: "Build/Build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Bath Hack 2021",
